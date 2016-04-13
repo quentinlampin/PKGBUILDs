@@ -26,7 +26,8 @@ source=("https://github.com/raspberrypi/linux/archive/${_commit}.tar.gz"
         "bfq1.patch::ftp://teambelgium.net/bfq/patches/${pkgver%.*}.0-${bfqver}/0001-block-cgroups-kconfig-build-bits-for-BFQ-${bfqver}-${pkgver%.*}.0.patch"
         "bfq2.patch::ftp://teambelgium.net/bfq/patches/${pkgver%.*}.0-${bfqver}/0002-block-introduce-the-BFQ-${bfqver}-I-O-sched-for-${pkgver%.*}.0.patch"
         "bfq3.patch::ftp://teambelgium.net/bfq/patches/${pkgver%.*}.0-${bfqver}/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-${bfqver}-for.patch"
-        'https://archlinuxarm.org/builder/src/brcmfmac43430-sdio.bin' 'https://archlinuxarm.org/builder/src/brcmfmac43430-sdio.txt'
+        'https://archlinuxarm.org/builder/src/brcmfmac43430-sdio.bin'
+        'https://archlinuxarm.org/builder/src/brcmfmac43430-sdio.txt'
         'config.txt'
         'cmdline.txt'
         'pps.config.v7')
@@ -36,6 +37,7 @@ md5sums=('4d836f9dfc0ad16dd278dd73f7dee6aa'
          '953133d5e387de2ad79ac0ae5c27cb6b'
          'f0387e673975e9f2a5e05136948edece'
          '4a410ab9a1eefe82e158d36df02b3589'
+         '8c3cb6d8f0609b43f09d083b4006ec5a'
          '99cd283b28c8a3905ac105fe2c3b1aec'
          '1305f6903dc6201af9b6047e988bd108'
          'eed6133be51b012e0f6476fb26d0770a')
